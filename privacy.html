@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy | ViceClipz</title>
+<meta name="description" content="Privacy Policy for the ViceClipz internal project.">
+<style>
+:root { color-scheme: light; --ink:#172033; --muted:#5b6475; --line:#dce1e9; --accent:#3157c8; --bg:#f5f7fb; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+main { max-width:860px; margin:48px auto; padding:40px; background:white; border:1px solid var(--line); border-radius:18px; }
+h1 { line-height:1.15; font-size:2.25rem; margin:0 0 8px; }
+h2 { margin-top:30px; font-size:1.25rem; }
+p, li { color:#30394b; }
+.meta { color:var(--muted); margin:0 0 28px; }
+a { color:var(--accent); }
+nav { display:flex; gap:18px; flex-wrap:wrap; border-top:1px solid var(--line); margin-top:32px; padding-top:18px; }
+.notice { padding:14px 16px; background:#f2f5ff; border-left:4px solid var(--accent); border-radius:8px; }
+@media(max-width:600px){ main{margin:0;padding:24px 18px;border:0;border-radius:0} h1{font-size:1.8rem} }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Privacy Policy</h1>
+<p class="meta">ViceClipz · Effective date: November 13, 2026</p>
+<p>This Privacy Policy describes how the ViceClipz project (“ViceClipz,” “we,” “us,” or “our”) may process information when the project team operates its automated video-generation and publishing workflow. ViceClipz is currently intended for internal use by its project team, not public registration.</p>
+
+<h2>1. Information that may be processed</h2>
+<ul>
+<li><strong>Third-party account information:</strong> basic account identifiers and profile information made available after an account holder authorizes a supported integration, such as TikTok or YouTube.</li>
+<li><strong>Authorization data:</strong> OAuth access tokens, refresh tokens, authorization codes during sign-in, and related permission or connection status. These credentials are sensitive and should be kept in protected environment secrets or other access-controlled storage.</li>
+<li><strong>Video and content data:</strong> video files, clip URLs, titles, descriptions, captions, hashtags, thumbnails, and related metadata used to generate or publish clips.</li>
+<li><strong>Workflow and technical data:</strong> processing status, timestamps, error messages, logs, and state files needed to operate and troubleshoot the workflow.</li>
+<li><strong>Contact information:</strong> information you choose to send to the project contact email.</li>
+</ul>
+
+<h2>2. Sources and purposes</h2>
+<p>Information may come from the project team's authorized accounts, supported platform APIs, publicly accessible content sources, files supplied to the workflow, and the software infrastructure used to run it. We use this information to find and process clips, generate video edits and metadata, authenticate authorized platform connections, publish content when the relevant integration permits it, maintain workflow state, and troubleshoot errors.</p>
+
+<h2>3. Third-party services</h2>
+<p>The workflow may use or interact with Twitch, YouTube, TikTok, GitHub Actions, and AI services such as Google Gemini or Anthropic Claude. Speech transcription may be performed locally using the configured Whisper software. Depending on the feature and configuration, content or metadata may be sent to the relevant third-party service to perform a requested operation. Those providers process information under their own terms and privacy policies. Review their policies before connecting accounts or submitting content.</p>
+
+<h2>4. Storage and security</h2>
+<p>The project uses GitHub repositories, GitHub Actions environment variables or secrets, workflow storage, and local runtime files as configured. OAuth tokens and client secrets should be stored as protected secrets and must not be committed to a public repository or included in logs. No method of electronic storage or transmission is completely secure, and we cannot guarantee absolute security.</p>
+
+<h2>5. Retention</h2>
+<p>Information is retained only for as long as reasonably needed for the workflow, troubleshooting, security, and project administration. Retention can vary by data type and by the settings and retention policies of third-party providers, including GitHub Actions and connected platforms. Generated files and workflow state may be removed by the project cleanup process; copies retained by third-party services are governed by those services' policies.</p>
+
+<h2>6. Sharing</h2>
+<p>We do not operate a public user database or sell personal information. Information may be processed by the third-party services listed above when necessary to run the workflow, and may be disclosed where required by law or to protect the security and integrity of the project. Content intentionally published to a social platform becomes subject to that platform's settings and policies.</p>
+
+<h2>7. Your choices and requests</h2>
+<p>Account holders should disconnect integrations through the relevant platform where available and may ask the project team to stop using an account connection or delete project-held information. To make a request, email <a href="mailto:letsgetdatbreaddd@gmail.com">letsgetdatbreaddd@gmail.com</a> from an address that lets us reasonably understand which project connection or data the request concerns. We may need to retain limited information where required for security, legal, or operational reasons.</p>
+
+<h2>8. Children's privacy</h2>
+<p>ViceClipz is not designed for children and is not offered as a public service. The project team must follow the age requirements and terms of every third-party platform it uses.</p>
+
+<h2>9. Changes to this policy</h2>
+<p>We may update this policy when the software, integrations, or data practices change. The latest version and effective date will appear on this page.</p>
+
+<h2>10. Contact</h2>
+<p>For privacy questions or requests, contact <a href="mailto:letsgetdatbreaddd@gmail.com">letsgetdatbreaddd@gmail.com</a>.</p>
+<p class="notice"><strong>Important:</strong> This draft reflects the currently described project architecture. Before publishing, verify that every listed provider is actually used, confirm where OAuth tokens and generated files are stored, and update this policy whenever the implementation changes. This document is not legal advice.</p>
+
+<nav aria-label="Legal pages">
+<a href="index.html">Legal home</a>
+<a href="terms.html">Terms of Service</a>
+<a href="privacy.html">Privacy Policy</a>
+</nav>
+</main>
+</body>
+</html>
